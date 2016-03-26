@@ -1,0 +1,72 @@
+
+.formtable {
+	line-height: 75%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: .9em;
+	font-weight:bold;
+	background-color:#003F0F;
+	border: 8px double #000;
+	border-radius: 25px;
+	color: #FFF;
+	padding-top: 5px;
+	}
+
+.droppable {
+	height: 25px;	
+}
+
+.red {
+ background-color:#B60000;
+ color:#FFFFFF;	
+ text-align:center;
+ width: 30px;
+ height: 30px;
+}
+
+.black {
+ background-color:#000000;
+ color:#FFFFFF;	
+ text-align:center;
+ width: 30px;
+ height: 30px;
+}
+
+#zero {
+	background-color:#0B3;
+	text-align:center;
+	width: 30px;
+}
+
+#currentPlayer {
+	margin-left: 10px;
+	border: 3px double gold;
+	padding: 0px 5px;
+	border-radius: 25px;
+	color: white;
+	line-height:45%;
+	text-align:center;
+	width: 150px;
+}
+
+#displayArea {
+	text-align:center;
+	background-color: gold;
+	border-radius: 25px;
+	border: 8px double #000;
+	width: 350px;
+	height: 100px;
+}
+#wheel {
+	height: 130px;
+	width: 130px;
+}
+#credentials 
+{
+	font-size: .7em;
+
+}
+#chooseGame	{
+	font-size: .8em;
+	font-weight:bold;	
+}

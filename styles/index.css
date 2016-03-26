@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+	
+.castle
+{
+	position:absolute;
+	margin-left:auto;
+	margin-right: auto;
+}
+	
+.flag1
+{
+	position:relative;
+	top: 210px;
+	left: 230px;
+}
+	
+.flag2
+{
+	position:relative;
+	top: 410px;
+	right: 90px;
+}
+	
+.sword1
+{
+	position:relative;
+	top: -1500px;
+	left: -50px;
+	}
+	
+.sword2
+{
+	position:relative;
+	top: -1500px;
+	left: 560px;
+	}
+	
+.title
+{
+	position:absolute;
+	top: 13%;
+	left:-3000;
+	}
+
+#myCanvas
+{
+	position: relative;
+	top: 110px;
+	left: 100px;
+	}
+
+#anchor
+{
+	position:fixed;
+	right: 5%;
+	bottom: 10%;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;	
+	}
+	
+#enterTrumpet0
+{
+}

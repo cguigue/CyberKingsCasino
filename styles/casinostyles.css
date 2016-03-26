@@ -1,0 +1,707 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------template's css------------------------------------------------*/
+
+#wrapper {
+/*********** thanks to http://background-pictures.vidzshare.net for the background*/
+	background-image: url(../images/greenandgold.jpg);
+	/*overflow:hidden;*/
+	height: 100%;
+	width:100%;
+
+
+
+}
+#theform {
+	margin-left:auto;
+	margin-right:auto;	
+	border: 3px double gold;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	border-radius: 25px;
+}
+
+#header {
+	text-align:center;	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.casinotitle {
+	color: gold;
+	-o-text-shadow: 6px 6px 6px #000;
+	-moz-text-shadow: 6px 6px 6px #000;
+	-webkit-text-shadow: 6px 6px 6px #000;
+	text-shadow: 6px 6px 6px #000;
+	line-height: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#footer {
+	line-height: 0%;
+	text-align: center;
+	position:fixed;
+	right: 100px;
+	bottom: 0px;
+
+	}
+.enterbutton {
+	position:fixed;
+	top: 58%;
+	left: 40%;
+	display:none;
+}
+#betDisplay {
+	margin-left: 10px;
+	border: 3px double gold;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	border-radius: 25px;
+	color: white;
+	vertical-align:central;
+	line-height:35%;
+	text-align:center;
+	width: 160px;
+	height: 80px;
+}
+
+#gameChoice {
+	margin-top: 10%;
+	background-color:#003F0F;
+	border: 8px double #000;
+	border-radius: 25px;
+	padding: 15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gameChoice img {
+	height: 150px;
+	width: 150px;
+	padding: 8px;
+	opacity: 1;
+}
+
+#bankroll {
+	color: gold;
+	font-size: 1em;
+	line-height:0px;
+	text-align:center;
+}
+#chooseGame {
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1em;
+}
+#chooseGame a {
+	text-decoration:none;
+	line-height: 50%;
+}
+#chooseGame p {
+	padding: 5px 20px 5px 20px;
+}
+
+#credentials 
+{
+	position:fixed;
+	bottom:0px;
+	left: 0px;
+	background-color: #285c00;
+	border-top-right-radius: 25px;
+	border: 1px solid gold;
+	line-height: 0px;
+	font-weight:bold;
+	color: gold;
+}
+#credentials p {
+	padding-left: 5px;
+	padding-right: 5px;	
+	
+}
+#money
+{
+	font-size: 1.4em;
+}
+/*-----------------------------------------chris' css----------------------------------------------------*/
+.formtable {
+	margin-left:10%;
+	margin-right:10%;
+	font-size: 1.2em;
+	font-weight:bold;
+	background-color:#003F0F;
+	border: 8px double #000;
+	border-radius: 25px;
+	color: #FFF;
+	padding-top: 5px;
+	}
+	
+.red {
+ background-color:#B60000;
+ color:#FFFFFF;	
+ text-align:center;
+ width: 45px;
+ height: 45px;
+}
+.black {
+ background-color:#000000;
+ color:#FFFFFF;	
+ text-align:center;
+ width: 45px;
+ height: 45px;
+}
+.green {
+	text-align:center;
+	border: none;
+}
+#zero {
+	background-color:#0B3;
+	text-align:center;
+	width: 55px;
+}
+.token {
+	display:inline;
+ 	height: 40px;
+ 	width:40px;	
+}
+.droppableQuad {
+	width: 12px;
+	height: 12px;
+	background-color:#808080;	
+	display:block;
+}
+
+#newUser {
+	text-align:center;
+	position:static;
+
+}
+#wheel {
+	height: 160px;
+	width: 160px;
+	margin-left: 20px;
+}
+
+#notme {
+	position:absolute;
+	top: 0px;
+	right: 10px;
+	color:#D7D60C;
+}
+.push
+{
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#displayArea {
+	text-align:center;
+	background-color: gold;
+	border-radius: 25px;
+	border: 8px double #000;
+	width: 450px;
+	height: 80px;
+	color: black;
+	line-height: 75%;
+	margin-right: 10px;
+}
+#lowerArea {
+
+	color: black;
+}
+
+#rouletteTable td {
+	border: 1px solid gold;
+	empty-cells:hide;
+	
+}
+#rouletteTable {
+	padding-left: 10px;	
+}
+.droppable {
+	height: 35px;	
+}
+
+/*------------------------------------Charlie's css---------------------------------------------------*/
+
+h3 {
+float:right;
+position:relative;
+bottom:200px;
+}
+
+#box {
+	background-color:#003F0F;
+	border: 8px double #000;
+	border-radius: 25px;	
+	padding: 10px 150px 10px 20px;
+	
+}
+
+#inputCards {
+	position:absolute;
+	left:14%;
+	top:290px;	
+}
+
+.buttonAndBet {
+	
+	
+	margin-right:10px;
+	text-align:center;
+}
+
+.myCards1 {
+position: relative;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+.myCards2 {
+position: relative;
+	top: 0px;
+	left: -130px;
+	z-index: 10;
+}
+.myCards3 {
+position: relative;
+	top: 0px;
+	left: -260px;
+	z-index: 10;
+}
+.myCards4 {
+position: relative;
+	top: 0px;
+	left: -390px;
+	z-index: 10;
+}
+.myCards5 {
+position: relative;
+	top: 0px;
+	left: -520px;
+	z-index: 10;
+}
+
+#myBorder{
+	margin-left:40px;
+	margin-top:40px;
+}
+
+
+.discardCards {
+	position:relative;
+	left:19.5%;
+	top:85px;
+	margin-right:10.5%;
+}
+
+.enlarge {
+	background-color:black;
+	color:yellow;
+	font-size:1em;
+	border-radius:10px;
+	text-align:center;
+	font-weight:bold;
+	height:200px;
+	
+}
+
+#button {
+	font-style:italic;
+}
+
+#text {
+	font-size:3.5em;
+	position:absolute;
+	left:30%;
+	color:white;
+}
+
+#isDiscard1
+{
+	position:absolute;
+	left:0px;
+	bottom:230px;
+	color:white;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#isDiscard2
+{
+	position:absolute;
+	left:170px;
+	bottom:230px;
+	color:white;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#isDiscard3
+{
+	position:absolute;
+	left:340px;
+	bottom:230px;
+	color:white;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#isDiscard4
+{
+	position:absolute;
+	left:510px;
+	bottom:230px;
+	color:white;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#isDiscard5
+{
+	position:absolute;
+	left:670px;
+	bottom:230px;
+	color:white;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*-----------------------------------Robert's css-------------------------------------------------------------*/
+
+#deck
+{
+	z-index: 5;
+	position: relative;
+	left: 50px;
+	height: 134px;
+	width: 101px;
+	display:inline;
+	}
+	
+#cardImg0
+{
+	position: relative;
+	top: 0px;
+	left: -1000px;
+	height: 128px; 
+	width: 95px;
+	z-index: 10;
+	}
+#cardImg1
+{
+	position: relative;
+	top: 0px;
+	left: -1000px;
+	height: 128px; 
+	width: 95px;
+	z-index: 10;
+	}
+#cardImg2
+{
+	position: relative;
+	top: 0px;
+	left: -1000px;
+	height: 128px; 
+	width: 95px;	
+	z-index: 10;	
+	}
+#cardImg3
+{
+	position: relative;
+	top: 0px;
+	left: -1000px;
+	height: 128px; 
+	width: 95px;
+	z-index: 10;
+	}
+#cardImg4
+{
+	position: relative;
+	top: 0px;
+	left: -1000px;
+	height: 128px; 
+	width: 95px;
+	z-index: 10;
+	}
+#tableHeadRow
+{
+	font-weight: bold;		
+}
+#winningsTable
+{
+	text-align: center;	
+	position: relative;
+	left: 15%;
+	width:500px;
+}
+.mobile
+{
+	display: none;
+
+}
+	
+.notMobile
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.castle
+{
+	position:relative;
+	margin-left:22%;
+	margin-top: 5%;
+	height: 589px;
+	width: 685px;
+}
+.flag1
+{
+	position:relative;
+	right: 140px;
+}
+.flag2
+{
+	position:relative;
+	right: 740px;
+}
+.title
+{
+	position:absolute;
+	top: 20%;
+	left:-1000;
+}
+.sword1
+{
+	position:absolute;
+	top: -500px;
+	right: 260px;
+	}
+	
+.sword2
+{
+	position:absolute;
+	top: -500px;
+	left: 250px;
+	}
+#anchor 
+{
+	position:absolute;
+	top: 20px;
+	right: 20px;
+	text-decoration:none;
+}
+
+/*-------------------------------------Yuhan's css---------------------------------------------------------------------*/
+#registration {
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#003F0F;
+	border: 8px double #000;
+	border-radius: 25px;
+	padding: 15px;
+	color: white;
+	font-weight:bold;
+}
+
+#registration td {
+	font-size: 1.2em;
+	padding-top: 20px;
+	padding-bottom:5px;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+#register
+{	
+	margin-top: 0px;
+	line-height: 40%;
+	text-align:center;	
+}
+
+#btnLeave {
+	position: absolute;
+	left: 1055px;
+	top: 499px;
+	width: 52px;
+	height: 25px;
+}
+
+#btnSpin {
+	position: absolute;
+	left: 1057px;
+	top: 310px;
+	width: 59px;
+	height: 28px;
+}
+
+#btnStop {
+	position: absolute;
+	left: 1058px;
+	top: 354px;
+	width: 43px;
+	
+}
+
+#slotOuterBox {
+	left: 311px;
+	top: 87px;
+	width: 651px;
+	height: 500px;
+    background-color:#003F0F;
+	border: 8px double #000;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slotTable {
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+}
+
+#playerInfo {
+	position: absolute;
+	left: 4px;
+	top: 175px;
+	width: 373px;
+	height: 131px;
+	background-color: #CCC;
+	color: #000;
+	border: solid thick #000;
+	font-size: .7em;
+	padding: 5px;
+	text-align: center;
+}
+
+#slot1 {
+	left: 47px;
+	top: -1px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot2 {
+	left: 48px;
+	top: 156px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot3 {
+	left: 50px;
+	top: 313px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot4 {
+	left: 250px;
+	top: -1px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot5 {
+	left: 249px;
+	top: 158px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot6 {
+	left: 250px;
+	top: 315px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot7 {
+	left: 451px;
+	top: 2px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot8 {
+	left: 452px;
+	top: 161px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#slot9 {
+	left: 453px;
+	top: 318px;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	border: thick solid gold;
+	background: white;
+}
+
+#playerBet {
+	position: absolute;
+	left: 1022px;
+	top: 244px;
+	width: 156px;
+	height: 37px;
+	color: gold;
+}
+
+#payout {
+	position: absolute;
+	left: 65px;
+	top: 233px;
+	width: 197px;
+	height: 177px;
+	color: #000;
+}
+
+#payout-col {
+	background-color: gold;
+	text-align: center;
+}
+
+#payout-header {
+	background-color: #003F0F;
+	color: white;
+	
+	
+}
+
+#payoutTable {
+	border-collapse: collapse;
+	
+}
+
+#otherBox {
+	background-color: #003F0F;
+	
+}

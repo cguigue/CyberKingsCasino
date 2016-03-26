@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.formtable {
+	transform: rotate(90.0deg);
+}
+#wrapper {
+	background-image:none;
+	background-color: #003F0F;	
+}
+
+.formtable {
+	position:absolute;
+	top: 0px;
+	left: -100px;
+	margin-top:120px;
+	margin-right:0px;
+	font-size: .6em;
+	font-weight:bold;
+	background-color:#003F0F;
+	border: none;
+	border-radius: 0px;
+	color: #FFF;
+	padding-top: 0px;
+	width: 600px;
+	}
+
+.droppable {
+	height: 15px;	
+}
+
+.red {
+ background-color:#B60000;
+ color:#FFFFFF;	
+ text-align:center;
+ width: 15px;
+ height: 15px;
+}
+
+.black {
+ background-color:#000000;
+ color:#FFFFFF;	
+ text-align:center;
+ width: 15px;
+ height: 15px;
+}
+
+#zero {
+	background-color:#0B3;
+	text-align:center;
+	width: 15px;
+}
+
+#displayArea {
+	text-align:center;
+	background-color: gold;
+	border-radius: 25px;
+	border: 8px double #000;
+	width: 180px;
+	height: 60px;
+}
+.droppable {
+	height: 20px;	
+}
+#chooseGame {
+	display: none;
+}
+#credentials 
+{
+	display:none;
+}
+.casinotitle {
+	transform: rotate(90.0deg);
+	position:absolute;
+	right: -135px;
+	bottom: 260px;	
+	z-index: 2;
+}
+.token {
+ 	height: 25px;
+ 	width:25px;	
+}

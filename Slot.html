@@ -1,0 +1,143 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/ThreeKingsCasino.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Cyber Kings Casino</title>
+<!-- InstanceEndEditable -->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="scripts/threekingscasino.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!--Script tags go here -->
+<script type="text/javascript" src="scripts/Cookies.js"></script>
+<script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+<script type="text/javascript" src="scripts/threekingscasino.js"></script>
+<script type="text/javascript" src="scripts/slots.js"></script>
+<!-- InstanceEndEditable -->
+<!--Links to CSS go here, first is for Largest Screens, Second is Tablet, Third is mobile -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link media="screen" href="styles/casinostyles.css" rel="stylesheet" type="text/css">
+<link media="screen" href="http://code.jquery.com/ui/1.10.4/themes/le-frog/jquery-ui.css" rel="stylesheet" type="text/css">
+<link media="handheld,
+only screen and (max-width: 800px),
+only screen and (max-device-width:800px)"
+href="styles/casinotablet.css" type="text/css" rel="stylesheet"/>
+<link media="handheld,
+only screen and (max-width: 480px),
+only screen and (max-device-width:480px)"
+href="styles/casinomobile.css" type="text/css" rel="stylesheet"/>
+<!-- InstanceParam name="Title" type="boolean" value="true" -->
+</head>
+
+<body id="wrapper">
+<h1 class="casinotitle"><!-- InstanceBeginEditable name="EditRegion4" -->- Cyber Kings Slots -<!-- InstanceEndEditable --></h1>
+<div class=".ui-accordion" id="chooseGame">
+<h2>Choose a Game</h2>
+<div>
+
+<a href="rPoker.html"><p class="ui-corner-all ui-state-focus">Poker</p></a>
+<a href="roulette.html"><p class="ui-corner-all ui-state-focus">Roulette</p></a>
+<a href="Slot.html"><p class="ui-corner-all ui-state-focus">Slots</p></a>
+<a href="cPoker.html"><p class="ui-corner-all ui-state-focus">Poker</p></a>
+
+</div>
+</div>
+<a id="notme" onClick="eatCookie()" href="intro.html"></a>
+<!-- InstanceBeginEditable name="Content" -->
+<div class="">
+<div id="payout">
+<table id="payoutTable" width="200" border="1">
+  <tr>
+    <th colspan="2" scope="col" id="payout-header">Payout</th>
+    </tr>
+  <tr>
+    <td id="payout-col">Cherries</td>
+    <td id="payout-col">1x your bet</td>
+  </tr>
+  <tr>
+    <td id="payout-col">Bananas</td>
+    <td id="payout-col">2x your bet</td>
+  </tr>
+  <tr>
+    <td id="payout-col">Star</td>
+    <td id="payout-col">3x your bet</td>
+  </tr>
+  <tr>
+    <td id="payout-col">Seven</td>
+    <td id="payout-col">4x your bet</td>
+  </tr>
+  <tr>
+     <td id="payout-col">Bar</td>
+     <td id="payout-col">5x your bet</td>
+  </tr>
+  <tr>
+    <td id="payout-col">Heritage Logo</td>
+    <td id="payout-col">6x your bet</td>
+  </tr>
+  <tr>
+    <td id="payout-col">CS Logo</td>
+    <td id="payout-col">7x your bet</td>
+  </tr>
+</table><br/>
+<input class="ui-widget ui-button-text-only ui-state-focus ui-corner-all" type="button" value="Show/Hide Payout" onClick="$('#payoutTable').slideToggle('slow');"/>
+</div>
+<div id="spinSlots" onClick="spinSlot()">
+<div id="slotOuterBox">
+<table id="slotTable">
+<tr>
+<td>
+<div id="slot1"><img id="image1" src="images/slot/slotType1.png" width="150" height="150" alt="cherries"></div>
+</td><td>
+<div id="slot2"><img id="image2" src="images/slot/slotType2.png" width="150" height="150" alt="banana"></div>
+</td><td>
+<div id="slot3"><img id="image3" src="images/slot/slotType3.png" width="150" height="150" alt="star"></div>
+</td></tr><tr><td>
+<div id="slot4"><img id="image4" src="images/slot/slotType4.png" width="150" height="150" alt="heritage"></div>
+</td><td>
+<div id="slot5"><img id="image5" src="images/slot/slotType5.png" width="150" height="150" alt="seven"></div>
+</td><td>
+<div id="slot6"><img id="image6" src="images/slot/slotType6.png" width="150" height="150" alt="cherries"></div>
+</td></tr><tr><td>
+<div id="slot7"><img id="image7" src="images/slot/slotType7.png" width="150" height="150" alt="banana"></div>
+</td><td>
+<div id="slot8"><img id="image8" src="images/slot/slotType8.png" width="150" height="150" alt="bar"></div>
+</td><td>
+<div id="slot9"><img id="image9" src="images/slot/slotType9.png" width="150" height="150" alt="cherries"></div>
+</td></tr></table>
+
+</div>
+<form action="" method="get" id="myform">
+<div id="otherBox">
+<div id="playerBet"><label>Your bet:</label>
+<input name="bet" type="text" size="5" id="bet"/><br/><br/></div>
+
+<input class="ui-widget ui-button-text-only ui-state-focus ui-corner-all" type="button" value="Spin" id="btnSpin" onClick="startSpinning()"/>
+
+<div id="btnLeave"><input class="ui-widget ui-button-text-only ui-state-focus ui-corner-all" type="button" value="Leave" onClick="leavePage()"/></div>
+
+<div id="btnStop"><input class="ui-widget ui-button-text-only ui-state-focus ui-corner-all" type="button" value="Stop" onClick="stopSpinning()"/></div>
+</div>
+</form>
+
+<!-- InstanceEndEditable -->
+<div id="credentials">
+<table>
+<tr>
+<td>
+<p>Welcome <span id="playername"></span>!</p></td>
+<td><p>Telephone: <span id="phonenumber"></span></p></td>
+<td><p>Postal Code: <span id="postalcode"></span></p></td>
+<td><p>Last Visit: <span id="lastvisit"></span></p></td>
+<td><p id="money">$<span id="bankroll"></span></p></td>
+</tr>
+</table>
+</div>
+<footer id="footer">
+<p>&copy; Three Kings Casino</p>
+</footer>
+
+</body>
+<!-- InstanceEnd --></html>
