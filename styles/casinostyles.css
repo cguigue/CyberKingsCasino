@@ -129,8 +129,9 @@
 }
 /*-----------------------------------------chris' css----------------------------------------------------*/
 .formtable {
-	margin-left:10%;
-	margin-right:10%;
+	width: 950px;
+	margin-left:auto;
+	margin-right:auto;
 	font-size: 1.2em;
 	font-weight:bold;
 	background-color:#003F0F;
